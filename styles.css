@@ -429,6 +429,24 @@ main{
         font-weight: 300;
         line-height: normal;
     }
+    .lastimage{
+        width: 50%;
+    }
+    .lastinput{
+        color: #FF5400;
+        size: 2rem;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        background: #FF5400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .lastinput input{
+        background: #FF5400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
 
 
 
