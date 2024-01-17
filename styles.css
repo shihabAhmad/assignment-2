@@ -63,9 +63,6 @@ nav{
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
-    /* line-height: normal; */
-    /* max-width: 596px; */
-    /* margin:106px 399px 310px 210px; */
     max-width: 596px;
     margin: 0 auto;
 }
@@ -97,3 +94,26 @@ nav{
     border-radius: 8px;
     background-color: #FF5400;
 }
+
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    .banner-left{
+        font-size: 21.543px;
+    }
+    .banner-right{
+        display: none;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        
+    }
+    .input-container div{
+        padding-right: 120px;
+    }
+}
+  
+   
+   
