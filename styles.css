@@ -132,7 +132,108 @@ main{
     height: 52px;
     flex-shrink: 0;
 }
+.banner-clg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-clg{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tour-choose{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.image-collage{
+    margin-top: 100px;
+}
+.shared-font{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.image-1{
+    background-image: url('./Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.image-2{
+    background-image: url('./Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+.row-1{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.image-3{
+    background-image: url(./Images/Rectangle\ 6.png);
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
 
+}
+.image-4{
+    background-image: url('./Images/Rectangle\ 7.png');
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+}
+.image-5{
+    background-image: url('./Images/Rectangle\ 9.png');
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 25px;
+}
+.image-6{
+    background-image: url('./Images/Rectangle\ 11.png');
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+
+}
+.image-7{
+    background-image: url('./Images/Rectangle\ 10.png');
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px; 
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 25px;
+    
+    margin-top: 25px;}
 
 /* responsive styles */
 @media screen and (max-width:576px) {
@@ -157,6 +258,27 @@ main{
     }
     .popular-title{
         margin-right: 140px;
+    }
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+
+    .row-1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
     }
 }
   
